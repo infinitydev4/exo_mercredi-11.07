@@ -3,9 +3,9 @@ require 'twitter'
 Dotenv.load
 # quelques lignes qui enregistrent les clés d'APIs
 client = Twitter::REST::Client.new do |config|
-    config.consumer_key        = "YOUR_CONSUMER_KEY"
-    config.consumer_secret     = "YOUR_CONSUMER_SECRET"
-    config.access_token        = "YOUR_ACCESS_TOKEN"
-    config.access_token_secret = "YOUR_ACCESS_SECRET"
+    config.consumer_key        = "consumer_key"
+    config.consumer_secret     = "consumer_secret"
+    config.access_token        = "access_token"
+    config.access_token_secret = "access_token_secret"
   end
 p client
